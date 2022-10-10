@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+
+.heading{
+    font-family: 'Berkshire Swash', cursive;
+}
+.hovernow:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8) ;
+    -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+        transition: all 0.7s ease-out 0s;
+}
+.heading3{
+    font-family:'Peralta', cursive ;
+}
+.heading4{
+    font-family:'Peralta', cursive ;
+}
+
+.hovernow2:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    transition:0.10s ease-out ;
+}
+
+.heading5{
+    font-family: 'Berkshire Swash', cursive;
+}
+.last{
+    background-image: url(./images/backgrnd3.jpg);
+    
+}
+
+@media(mix-width:330){
+    .mg{
+        width: 150px;
+    }
+}
+
+#face{
+    font-size:x-large;
+}
+#insta{
+    font-size: x-large;
+}
+#twi{
+    font-size: x-large;
+}
+#linki{
+    font-size: x-large;
+}
+#tube{
+    font-size: x-large;
+}
+.play{
+    width: 260px;
+    height: 80px;
+}
+#foot{
+    background-color: rgba(182, 186, 186, 0.836);
+}
+@media(min-width:400px) and (max-width:581px){
+    #bug{
+        display: none;
+    }
+}

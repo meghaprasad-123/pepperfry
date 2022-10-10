@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/652f2ab2a5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./first.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+
+    <div class="container">
+      <!-- <div class="topper"> -->
+        <img class="navbar-brand" style="height: 55px;width: 250px;" src="./images/peperlogo.png" alt="nothing"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" style="width: 730px;" type="search"
+              placeholder="Your door to happiness opens with a search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>&nbsp;
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categories
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Furniture</a></li>
+              <li><a class="dropdown-item" href="#">Sofas & Recliners</a></li>
+              <li><a class="dropdown-item" href="#">Beds & Mattresses</a></li>
+              <li><a class="dropdown-item" href="#">Storage</a></li>
+              <li><a class="dropdown-item" href="#">Dining</a></li>
+              <li><a class="dropdown-item" href="#">Wall Accents</a></li>
+              <li><a class="dropdown-item" href="#">Decor</a></li>
+              <li><a class="dropdown-item" href="#">Lighting</a></li>
+              <li><a class="dropdown-item" href="#">Furnishings</a></li>
+              <li><a class="dropdown-item" href="#">Carpets</a></li>
+              <li><a class="dropdown-item" href="#">Outdoor</a></li>
+              <li><a class="dropdown-item" href="#">Appliances</a></li>
+              <li><a class="dropdown-item" href="#">Pets</a></li>
+              <li><a class="dropdown-item" href="#">Modular</a></li>
+
+            </ul>
+          </div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" style="width: 35px;" aria-current="page" href="#"><i
+                  class="fa-regular fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li>
+              <button type="button" class="btn btn-dark">Help</button>
+            </li>
+          </ul>
+
+        </div>
+      <!-- </div> -->
+
+    </div>
+
+  </nav>
+
+  <!-- carousel -->
+  <section class="fitnessquote">
+    <div class="container py-5">
+
+      <div class="row pt-2">
+        <div class="col-lg-12">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/c1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/c2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/c3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/c4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/c5.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <br>
+
+
+
+      <!--  shop by room-->
+      <div class="heading">
+        <h2>
+          <center>Shop By Room</center>
+        </h2>
+      </div>
+
+      <!-- cards -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3  col-md-6 col-sm-12 ">
+            <div class="card hovernow" style="width: 18rem;">
+              <img src="./images/room1.jpg" class="card-img-top" alt="nthg">
+              <div class="card-body">
+                <h5 class="card-title">Shop Living Room</h5>
+                <a href="#" class="btn btn-light">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3  col-md-6 col-sm-12 ">
+            <div class="card hovernow" style="width: 18rem;">
+              <img src="./images/room2.jpg" class="card-img-top" alt=".nthg">
+              <div class="card-body">
+                <h5 class="card-title">Shop Bedroom</h5>
+                <a href="#" class="btn btn-light">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3  col-md-6 col-sm-12 ">
+            <div class="card hovernow" style="width: 18rem;">
+              <img src="./images/room3.jpg" class="card-img-top" alt="nthg">
+              <div class="card-body">
+                <h5 class="card-title">Shop Dinning Room</h5>
+                <a href="#" class="btn btn-light">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3  col-md-6 col-sm-12 ">
+            <div class="card hovernow" style="width: 18rem;">
+              <img src="./images/room4.jpg" class="card-img-top" alt="nthg">
+              <div class="card-body">
+                <h5 class="card-title">Shop Study Room</h5>
+                <a href="#" class="btn btn-light ">View</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div><br>
+
+      <!-- deals -->
+      <div class=" container heading2">
+        <h2>Deals Of The Day</h2>
+      </div><br>
+
+      <!-- cards -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3  col-md-6 col-sm-12 ">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/deal1.jpg" class="card-img-top" alt="nthg">
+              <div class="card-body">
+                <h5 class="card-title">Brass Oil Lamps</h5>
+                <p>Get this item for</p>
+                <center><a href="#" class="btn btn-dark">449/-</a></center>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3  col-md-6 col-sm-12 ">
+
+            <div class="card" style="width: 18rem;">
+              <img src="./images/deal2.jpg" class="card-img-top" alt="nthg">
+              <div class="card-body">
+                <h5 class="card-title">Floral Table Lamp</h5>
+                <p>Get this item for</p>
+                <center><a href="#" class="btn btn-dark">449/-</a></center>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3  col-md-6 col-sm-12 ">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/deal3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Minimal Hutch Desk</h5>
+                <p>Get this item for</p>
+                <center><a href="#" class="btn btn-dark">4999/-</a></center>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3  col-md-6 col-sm-12 ">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/deal4.jpg" class="card-img-top" alt="nthg">
+              <div class="card-body">
+                <h5 class="card-title">Sleek Bedside Table</h5>
+                <p>Get this item for</p>
+                <center><a href="#" class="btn btn-dark">999/-</a></center>
+              </div>
+            </div>
+          </div>
+        </div><br>
+
+        <!-- trends -->
+        <div class="container heading3">
+          <h2>Trends In Furniture And Decor</h2>
+        </div>
+
+        <!-- cards -->
+        <div class="conatainer">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="card" style="width: 20rem;">
+                <img src="./images/trend1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Neotenic Barrel Chairs</h5>
+                  <a style="text-decoration:none ;color: brown;" href="">
+                    <p>Explore Starting ₹8075</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+              <div class="card" style="width: 20rem;">
+                <img src="./images/trend2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Minimalist Scandi Furniture</h5>
+                  <a style="text-decoration:none ; color: brown;" href="">
+                    <p>Explore Starting ₹3999 </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+              <div class="card" style="width: 20rem;">
+                <img src="./images/trend3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tropical Prints</h5>
+                  <a style="text-decoration:none ;color: brown;" href="">
+                    <p>Explore Starting ₹348</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><br>
+
+        <!-- autumn edit -->
+        <div class="container heading4">
+          <h2>The Autumn Edit</h2>
+        </div>
+
+        <!-- cards -->
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-4  col-md-6  col-sm-12">
+              <div class="card hovernow2" style="width: 22rem;">
+                <a href=""><img src="./images/autm1.jpg" class="card-img-top" alt="..."></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4  col-md-6  col-sm-12">
+              <div class="card  hovernow2" style="width: 22rem;">
+                <a href=""><img src="./images/autm2.jpg" class="card-img-top" alt="..."></a>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4  col-md-6  col-sm-12">
+              <div class="card  hovernow2" style="width: 22rem;">
+                <a href=""><img src="./images/autm3.jpg" class="card-img-top" alt="..."></a>
+
+              </div>
+            </div>
+          </div>
+        </div><br>
+
+        <!-- brands -->
+        <div class="container heading5">
+          <h2>Top Brands On Pepperfry</h2>
+        </div>
+
+        <!-- cards -->
+        <div class="container">
+          <div class="row">
+            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 19rem;">
+              <img src="./images/brand1.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <a style="text-decoration:none ;color: black;" href=""><b>120+Options</b><br>Popular for Beds</a>
+              </div>
+            </div>&nbsp;
+
+            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 19rem;">
+              <img src="./images/brand2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a style="text-decoration:none ;color: black;" href=""><b>800+Options</b><br>Popular for lights</a>
+              </div>
+            </div>&nbsp;
+
+            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 19rem;">
+              <img src="./images/brand3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a style="text-decoration:none ;color: black;" href=""><b>2000+Options</b><br>Soliwood furniture</a>
+              </div>
+            </div>&nbsp;
+
+            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 19rem;">
+              <img src="./images/brand4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a style="text-decoration:none ;color: black;" href=""><b>25+Options</b><br>Popular for homeware</a>
+              </div>
+            </div>
+          </div>
+
+        </div><br>
+
+        <!-- from the store -->
+        <div class="container heading6">
+          <h2><strong>More From The Store</strong></h2>
+        </div>
+
+        <!-- last details -->
+        <div class="container "id="bug">
+          <div class="row">
+
+            <div class="col-2 col-lg-2 col-md-4 col-sm-6">
+
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><strong>Furniture</strong></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Sofas & Recliners</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Seating</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Chairs</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Beds</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Cabinetry</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Tables</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Dining</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Kids & Teens</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Home Office</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Sofa chairs</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Outdoor</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Bar furniture</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Furniture and Home Services</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Entertainment units</a></li>
+              </ul><br>
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Sofas & Recliners</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">3 seater sofas</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">2 seater sofas</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">1 seater sofas</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Sofa sets</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Sectional sofas</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Recliners</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Chaise loungers</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Sofa cum beds</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Futons</a></li>
+              </ul>
+            </div>
+            <div class="col-2 col-lg-2 col-md-4 col-sm-6">
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Storage</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Wardrobes</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Cabinets & sideboards</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Chest of drawers</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Shoe racks</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">book shelves</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Wall shelves</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Table organizers</a></li>
+              </ul><br>
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Beds & Mattresses</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Queen Size beds</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">King size beds</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Single beds</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Mattresses</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Queen Size mattresses</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Single bed mattresses</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Upholstered beds</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Kids beds</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Bunk beds</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Bedding</a></li>
+              </ul>
+            </div>
+            <div class="col-2 col-lg-2 col-md-4 col-sm-6">
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Wall Accents</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Mirrors</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Clocks</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Photoframes</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Wall arts</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Canvas paintings</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Wall cabinets</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Wall shelves</a></li>
+              </ul><br>
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Lighting</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Floor lamps</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Table lamps</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Wall lamps</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Ceiling lights</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Chandeliers</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">LED lights</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Smart lights</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Outdoor lights</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Festive lights</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Lampshades</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Kids lighting</a></li>
+              </ul>
+            </div>
+            <div class="col-2 col-lg-2 col-md-4 col-sm-6">
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Dining & Bar</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Dinnerware</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Serveware</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Drinkware</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Barware</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Teaware</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Bakeware</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Table linen</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Dining furniture</a></li>
+                <li><a style="text-decoration: none;color:black;" href=""> Bar furniture</a></li>
+              </ul><br>
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Decor</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Table decor</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Wall shelves & cabinets</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Cabinets</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Wall art</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Spiritual</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Kids decor</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Home garden</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Screens and dividers</a></li>
+                <li><a style="text-decoration: none;color:black;" href=""> Photo frames</a></li>
+              </ul>
+            </div>
+            <div class="col-2 col-lg-2 col-md-4 col-sm-6">
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Furnishings</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Bed linen</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Curtains</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Blankets and comforters</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Cushions & covers</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Bath linen</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Kids furnishings</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Table linen</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Organizers</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Essentials</a></li>
+              </ul><br>
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Carpets</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Carpets</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Dhurries</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Runners</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Doormats</a></li>
+              </ul>
+            </div>
+            <div class="col-2 col-lg-2 col-md-4 col-sm-6">
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Garden & Outdoor</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Pots & planters</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Planter stands</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Natural plants</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Artificial plants & flowers</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Garden decor</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Outdoor furniture</a></li>
+              </ul><br>
+              <ul style="list-style-type: none;">
+                <li>
+                  <p><b>Appliances</b></p>
+                </li>
+                <li><a style="text-decoration: none;color:black;" href="">Mixers & processors</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Breakfast appliances</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">OTGs</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Cooktops</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Chimneys</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Heating and cooling</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Televisions</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Home audio</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Laundry</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Cleaning</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Purifiers</a></li>
+                <li><a style="text-decoration: none;color:black;" href="">Food makers</a></li>
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div><br>
+
+        <!-- footer -->
+        <div id="foot" class="container">
+          <center>
+              <h3>Like what you see? You'll like us even more here</h3>
+              <a href=""><i style="color: blue;" class="fa-brands fa-facebook" id="face"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href=""><i style="color: rgb(193, 63, 141);" class="fa-brands fa-instagram" id="insta"></i></a> &nbsp;&nbsp;&nbsp;
+              <a href=""><i style="color:rgb(84, 158, 231) ;" class="fa-brands fa-twitter" id="twi"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href=""><i style="color:rgb(34, 34, 138) ;" class="fa-brands fa-linkedin" id="linki"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href=""><i style="color: rgb(195, 43, 43);" class="fa-brands fa-youtube" id="tube"></i></a><br><br>
+              <h3>Download App</h3>
+              <img class="play" src="./images/app store.png" alt="nthg">
+              <img class="play" src="./images/gplay.png" alt="nthg"><br><br>
+              <div  class="dropdown">
+                 <button id="but" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Show More
+                 </button>
+                 <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="#">About us</a></li>
+                   <li><a class="dropdown-item" href="#">Our Blog</a></li>
+                   <li><a class="dropdown-item" href="#">Careers</a></li>
+                   <li><a class="dropdown-item" href="#">FAQs</a></li>
+                   <li><a class="dropdown-item" href="#">Policies</a></li>
+                   <li><a class="dropdown-item" href="#">Contact us</a></li>
+                 </ul>
+               </div>
+          </center>
+     </div>
+</body>
+
+</html>
